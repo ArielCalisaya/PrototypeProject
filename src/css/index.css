@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.contenedor{
+  display: flex;
+  flex-direction: column;  /*direccion container en columna*/
+  align-items: center;
+}
+
+body{
+    background-image: url(../images/background.UbuntuReff.jpg);     /*background image*/
+    padding-top: 0%;
+    background-size: cover;
+    -moz-background-size: cover;
+    
+    
+}
+
+
+#userIcon{
+  color: #fff;
+  margin-left: 4px;
+}
+#keyIcon{
+  margin-left: 4px;
+}
+
+header{
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0,.3)
+}
+header h1{
+  margin-left: 30px;
+  font-size: 30px;
+}
+header a{
+  margin-right: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  transition: all ease 3s;
+}
+header a:hover{
+  color: rgb(180, 210, 212);
+}
+.login{
+  margin-top: 130px;
+  margin-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+.fondo{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  border-radius: 8px;
+}
+.fondo img{
+  margin-top: -120px;
+  margin-bottom: 40px;
+  width: 25%;
+  
+  border-radius: 50%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: solid #fff 10px;
+}
+
+
+.fondo h3{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.fondo form{
+  width: 40%;
+}
+
+.inp{
+  box-shadow: 0;
+  border: 0;
+  background-color: rgba(255, 255, 255, .1);
+  width: 90%;
+  margin-bottom: 35px;
+  height: 30px;
+  border: solid 2px rgba(255,255,255,.5);
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  transition: all .5s ease;
+}
+.fondo form .inp:focus{
+  outline: 0px;
+  background-color: rgba(255, 255, 255, .6);
+  border: solid 2px rgba(255,255,255,.01);
+  color: #000;
+}
+.boton{
+  width: 100%;
+  height: 30px;
+  font-size: 22px;
+  border: 0;
+  text-align: center;
+  background: rgba(255, 0, 0, 0.0);
+  border-bottom: solid 1px #fff;
+  color: #fff;
+  margin-top: 50px;
+  transition: all 200ms ease;
+}
+.boton:hover{
+  width: 120%;
+  margin-left: -10%;
+}
+.boton:active{
+  background-color: rgba(255, 255, 255,0.2);
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+
+
+
+
+.boton:focus{
+  background-color: rgba(255, 255, 255,0.2);
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+}
+
+.ForgottenPass{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  transition: all 300ms ease;
+}
+.ForgottenPass:hover{
+  color: rgb(184, 203, 214);
+}
